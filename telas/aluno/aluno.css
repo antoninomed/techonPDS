@@ -1,0 +1,56 @@
+.box-trilha {
+    width: 22vw;
+    border-radius: 4px;
+    padding: 1.5vw;
+    text-align: center;
+    margin-right: 1vw;
+}
+.box-trilha .desc-trilha{
+    color: grey;
+    text-align: justify;
+}
+.img01-trilha {
+    width: 12vw;
+    margin: 0 auto;
+}
+
+.img02-trilha {
+    width: 12vw;
+    margin: 0 auto
+}
+
+.img03-trilha {
+    width: 12vw;
+    margin: 0 auto
+}
+
+.img04-trilha {
+    width: 15vw;
+    margin: 0 auto;
+    padding-bottom: 8vh;
+}
+.container-trilha {
+    display:flex;
+    margin: 10vh 0 0 4vw;
+}
+
+.container-trilha a {
+    text-decoration: none;
+}
+.container-trilha a:hover {
+    box-shadow: 2px 2px 4px 4px #888888;
+    border-radius: 5px;
+}
+.container-trilha a:hover .inscrever-se {
+    background-color: #1f5ebb;
+}
+hr {
+    color:#1f5ebb;
+    padding: 2px;
+    margin: 2vw 4vw 0 4vw;
+}
+
+.inscrever-se {
+    color: white;
+}
+
