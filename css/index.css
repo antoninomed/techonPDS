@@ -1,0 +1,125 @@
+#main-home, #main-quemsomos,#main-trilhas {
+    background-color: #1f5ebb;
+    height: 90.5vh;
+}
+
+.img-central {
+    width: 24vw;
+}
+.container-central {
+    display:flex;
+    padding: 18vh 0 20.2vh 18vw;
+}
+.conteudo-central {
+    width: 25vw;
+    margin-left: 8%;
+}
+.titulo-central {
+    font-size: 34px;
+    font-weight: 500;
+    color: white;
+    width: 25vw;
+}
+.titulo-secundario {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    width: 25vw;
+}
+.btn-inicio {
+    background-color: white;
+    color: #1f5ebb;
+    border: 0;
+    padding: .5vw;
+    border-radius: 7px;
+    width: 10vw;
+    margin-top: 1vh;
+    
+}
+.container-contato .btn-inicio {
+    background-color: #1f5ebb;
+    color: white;
+    width: 10vw;
+}
+.container-contato .btn-inicio:hover {
+    background-color: white;
+    color: #1f5ebb;
+    border: solid 1px #1f5ebb;
+}
+
+.btn-inicio:hover {
+    transition: 0.2s;
+    background-color: #1f5ebb;
+    color: white;
+    border: solid 1px white;
+}
+
+.container-contato {
+    display: block;
+    background-color: white;
+    padding-top: 16vh;
+    width: 50vw;
+    padding-left:2vw;
+}
+
+.form-contato {
+    width: 44vw;
+}
+.mensagem_form {
+    width: 44vw;
+}
+.container-contato .btn-inicio {
+    width: 44vw;
+}
+.itens-contato {
+    display: flex;
+    background-color: #1f5ebb;
+}
+
+.container-contato h1 {
+    color: #1f5ebb;
+    text-align: center;
+}
+
+.info-contato {
+    color: white;
+    padding-top: 30vh;
+    height: 90.5vh;
+    text-align:center;
+    font-size: 18px;
+}
+
+.container-quemsomos h2,p, hr {
+    width: 50vw;
+    color: white;
+}
+.container-quemsomos hr{
+    margin-bottom: 1vh;
+}
+.container-quemsomos h2 {
+    padding-top: 5vh;
+    font-size: 24px;
+}
+
+.container-quemsomos {
+    display: flex;
+    align-items:baseline;
+    margin-left: 24vw;
+}
+.box-icon {
+    margin-right: 1vw;
+}
+
+.titulo-pag {
+    text-align: center;
+    color: white;
+    padding-top: 5vh;
+}
+
+.sel-trilhas p,h4{
+    color: white;
+}
+.detalhes-trilhas {
+    margin-left: 15vh;
+    margin-bottom: 5vh;
+}
