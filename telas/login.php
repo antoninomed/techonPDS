@@ -1,4 +1,7 @@
-<?php require ('cabecalho.php'); ?>
+<?php 
+session_start();
+require ('cabecalho.php'); 
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +17,7 @@
     <main id="main-login">
         <container class="container-login">  
             <img class = "img-central" src="../imagens/img-inicio.png" alt=""> 
-            <form class = "form-central" action="../validacaoLogin.php" method="get">	
+            <form class = "form-central" action="../dados/validacaoLogin.php" method="get">	
                 <h5>Insira seu e-mail e senha para entrar.</h5>
                 <input type="text" name="email" placeholder="E-mail" id="email" class="caixa" autofocus/> <br/>
                 <input type="password" name="senha" placeholder="Senha" id="senha" class="caixa"/> <br/>           

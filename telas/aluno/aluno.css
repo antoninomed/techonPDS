@@ -54,3 +54,48 @@ hr {
     color: white;
 }
 
+.box-geral {
+    background-color: white;
+    color: white;
+    border-radius: 1vw;
+    margin: 0 1vw 1vh 0;
+}
+
+.itens-prof {
+    background-color: #1f5ebb;
+    padding: 2vw;
+    display: flex;
+    width: 80vw;
+    margin-left: 2vw; 
+    border-radius: 1vw;
+}
+
+.titulo-curso {
+    margin-left: 2vw;
+    color:#1f5ebb;
+    height: 5vh;
+}
+
+.lineVertical {
+    border-left: 2px solid white;
+    margin-left: 2vw;
+    height: 10vh;
+  }
+
+.btn-inscrever {
+    background-color: #34bb04;
+    color: white;
+    border: 0;
+    padding: .5vw;
+    border-radius: 7px;
+    width: 12vw;
+    margin-top: 1vh;
+    text-decoration: none;
+}
+
+.btn-inscrever:hover{
+    text-decoration: none;
+    border: white 1px solid;
+    color: white;
+    cursor:pointer;
+}

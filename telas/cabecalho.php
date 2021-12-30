@@ -18,7 +18,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="trilhas.php" class="nav-link">Trilhas</a>
+                            <a href="cursos.php" class="nav-link">Cursos</a>
                         </li>  
 
                         <li class="nav-item">

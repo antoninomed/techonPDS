@@ -44,3 +44,144 @@
 textarea {
     min-height: 10vh;
 }
+
+.box-geral {
+    background-color: #1f5ebb;
+    color: white;
+    border-radius: 1vw;
+    margin: 0 1vw 1vh 0;
+    display: flex;
+}
+
+.btn-esp {
+    text-align: center;
+    height: 3vh;
+    margin-top: 3.5vh;
+    display: grid;
+}
+.modal-dialog {
+    color: black;
+}
+
+.itens-prof {
+    padding: 2vw;
+    display: flex;
+    width: 40vw;
+}
+
+.btn-excluir {
+    background-color: #e54040;
+    color: white;
+    border: 0;
+    padding: .5vw;
+    border-radius: 7px;
+    width: 10vw;
+    margin-top: 1vh;
+    text-decoration: none;
+}
+.btn-editar {
+    background-color: white;
+    color: #1f5ebb;
+    border: 0;
+    padding: .5vw;
+    border-radius: 7px;
+    width: 10vw;
+    margin-top: 1vh;   
+    text-decoration: none; 
+}
+
+.btn-editar:hover {
+    text-decoration: none;
+    background-color: #1f5ebb;
+    color: white;
+    border: white 1px solid;
+    padding: .5vw;
+    border-radius: 7px;
+    width: 10vw;
+    margin-top: 1vh;    
+}
+
+.btn-excluir:hover {
+    text-decoration: none;
+    border: white 1px solid;
+    color: white;
+    cursor:pointer;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+}
+.nav-link {
+    font-family: var(--bs-font-sans-serif);
+    font-size:16px;
+}
+
+.logo-cabecalho {
+    font-weight: 500;
+    font-family: var(--bs-font-sans-serif);
+}
+
+
+.itens-prof {
+    background-color: #1f5ebb;
+    padding: 2vw;
+    display: flex;
+    width: 80vw;
+    margin-left: 2vw; 
+    border-radius: 1vw;
+}
+
+.lineVertical {
+    border-left: 2px solid white;
+    margin-left: 2vw;
+    height: 10vh;
+  }
+
+.box-cursos {
+    background-color: #dfdede;
+    width: 22vw;
+    height: 22vh;
+    padding: 1vw 1vw 0 1vw;
+    margin: 1vw 0 0 1vw;
+    border-radius: 1px;
+}
+
+.btn-exc{
+    background-color: #dfdede;
+    border: solid grey 1px;
+    text-decoration: none;
+    color: black;
+    padding: .4vw;
+    cursor: pointer;
+}
+.btn-exc:hover{
+    text-decoration: none;
+    background-color: #e54040;
+    color: white;
+}
+
+.btn-edit:hover{
+    text-decoration: none;
+    color: white;
+    border: solid grey 1px;
+    background-color:#1f5ebb;
+}
+
+.btn-edit {
+    background-color: #999999;
+    border: solid grey 1px;
+    text-decoration: none;
+    color: white;
+    padding: .4vw;
+}
+.btn-cursos {
+    padding-top: 1vh;
+    font-size: 12px;
+    text-align: center;
+}
+
+.info-pag {
+    text-align: center;
+    margin-top: 8vh;
+    font-family: 'Blinker', sans-serif;
+}

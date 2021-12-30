@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
+    <?php include('../../dados/sessao.php'); ?>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +16,7 @@
             <a href="home.php" class="logo-cabecalho">techON</a>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="trilhas.php" class="nav-link">Minhas Trilhas</a>
+                            <a href="meusCursos.php" class="nav-link">Meus Cursos</a>
                         </li>
                         
                         <li class="nav-item">
@@ -31,6 +32,8 @@
         </nav>   
     </header>
     <main id="main-aluno">
+
+    
         <hr>
         <h4 style="margin-left: 5vw;">CONHEÇA AS NOSSAS TRILHAS</h4>
         <container class="container-trilha">
@@ -64,9 +67,9 @@
                 <p class="desc-trilha">Trilha avançada voltada a Linguagem PHP. É importante que você já domine lógicas de programação e já tenha conhecimento da linguagem
                     ou já tenha feito a trilha de PHP intermédiario.</p>
                 <p class="inscrever-se"> INSCREVER-SE </p>
-            </div></a>
-         </container>
-
+            </div></a>            
+        </container>
+        <a class = "btn-inscrever" style="background-color:#1f5ebb; margin-left: 90vw; margin-top: 5vh;" href="verCursos.php">Ver todos</a>
     </main>
     
 </body>
