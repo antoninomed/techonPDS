@@ -4,6 +4,7 @@ session_start();
 
 $_SESSION['logged']=False;
 
+
 $email = strtolower($_GET['email']);
 $senha = md5($_GET['senha']);
 
@@ -35,10 +36,10 @@ elseif ($preparacaoProf->rowCount() > 0){
 else if($preparacaoAluno->rowCount() >0){
 	$_SESSION['email'] = $email;
 	header('location:../telas/aluno/home.php');
+	exit();
 }else {
-	$_SESSION['notLogged'] = true;
+	$_SESSION['idError'] = 1;
 	header ('location:../telas/login.php');
-
 }
 
 ?>
