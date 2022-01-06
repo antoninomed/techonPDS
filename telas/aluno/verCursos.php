@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <?php 
+    <?php
     include ("../../dados/conexao.php"); 
     include('../../dados/sessao.php');
     ?>

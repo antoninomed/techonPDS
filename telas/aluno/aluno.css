@@ -161,3 +161,32 @@
 .object-video {
     text-align: center;
 }
+
+.btn-meuperfil {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #1f5ebb;
+    color: white;
+    padding: 1vw;
+}
+
+.btn-meuperfil:hover {
+    color: white;
+    border: solid black 1px;
+    
+}
+
+.itens-aluno {
+    margin-left: 15vw;
+    color: white;
+}
+
+.box-dados {
+    background-color: #1f5ebb;
+}
+
+.btn-ed {
+    background-color: white;
+    text-decoration: none;
+        
+}

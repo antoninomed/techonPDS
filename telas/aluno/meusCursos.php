@@ -60,7 +60,7 @@
                         <a class="btn-inscrever" href="selectCurso.php?id_curso=<?php echo $lista["id_curso"];?>">Continuar</a>
             </div>
           
-
+            
             <?php
             endwhile; 
             ?>         
