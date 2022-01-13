@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/cabecalho.css">
+    <link rel="stylesheet" href="../../css/cabecalho2.css">
     <link rel="stylesheet" href="professor.css">
     
     <title>Administrador techON</title>
@@ -38,7 +38,13 @@
 
                     <label for="usuario">Link do vídeo:  </label><br>
                     <input class="input-prof" type="text" name="videoCurso" placeholder="Insira o link do vídeo" id="videoCurso" required name = video class="caixa" autofocus/>
-    
+
+                    <label for="file">Selecione a imagem do curso:</label>
+                    <input class="input-prof" type="file" id="myfile" name="imgCurso">
+
+                    <label for="file">Selecione o teste em formato PDF</label>
+                    <input class="input-prof" type="file" id="myfile" name="linkTeste" accept=".PDF, .pdf">
+
                     <div class="botoes">
                             <input type="submit" name="enviar" value="Cadastrar" class="btn-cadastrar"/>
                             

@@ -10,6 +10,8 @@ $curso->setDescricaoCurso($_GET['descricaoCurso']);
 $curso->setNivelCurso($_GET['nivelCurso']);
 $curso->setLinkCurso($_GET['videoCurso']);
 $curso->setProfessorCurso($_SESSION['email']);
+$curso->setLinkImagem($_GET['imgCurso']);
+$curso->setLinkTeste($_GET['linkTeste']);
 
 $cursoDao = new CursoDao();
 $cursoDao->createCurso($curso);

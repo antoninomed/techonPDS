@@ -1,6 +1,6 @@
 <?php 
 Class Curso {
-    private $id, $titulo, $descricao, $link, $professor, $nivel;
+    private $id, $titulo, $descricao, $link, $professor, $nivel, $link_img, $link_teste;
 
     public function getIdCurso(){
         return $this-> idCurso;
@@ -39,6 +39,20 @@ Class Curso {
     }
     public function setNivelCurso($nivel){
         $this->nivelCurso = $nivel;
+    }
+
+    public function getLinkImagem(){
+        return $this-> linkImagem;
+    }
+    public function setLinkImagem($link_img){
+        $this->linkImagem = $link_img;
+    }
+
+    public function getLinkTeste(){
+        return $this-> linkTeste;
+    }
+    public function setLinkTeste($link_teste){
+        $this->linkTeste = $link_teste;
     }
 
 

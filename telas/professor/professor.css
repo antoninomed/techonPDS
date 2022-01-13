@@ -6,11 +6,44 @@
     height: 2.5vw;
 }
 
+.box-geral {
+    background-color: #dfdede;
+    color: black;
+    height: 9vh;
+    margin: 0 13vw 1vh 11vw;
+    display: flex;
+    padding-left: 4vw;
+    padding-top: 1.5vw;
+}
+
+
+.btn-esp {
+    margin-left: 30vw;
+}
+
+.btn-aprovar:hover{
+    border: solid white 1px;
+}
+
+.btn-reprovar:hover {
+    border: solid white 1px;
+} 
+.download-teste:hover {
+    border: solid white 1px;
+}
+
+
+.nome-curso {
+    display: grid;
+    width: 30vw;
+    margin-left: 1vw;
+    padding: .3vw;
+}
+
 .cadastro {
-    border: solid grey 3px;
     margin: 5vh 10vw 2vw 10vw;
     padding: 2vw;
-    border-radius: 5px;
+    background-color: #88888850;
 }
 
 .btn-cadastrar {
@@ -30,10 +63,10 @@
     height: 2vw;
 }
 .btn-cadastrar:hover {
-    box-shadow: 2px 2px 4px 4px #888888;
+    border: black solid 1px;
 }
 .btn-reset:hover {
-    box-shadow: 2px 2px 4px 4px #888888;
+    border: black solid 1px;
 }
 
 .cadastro h2 {
@@ -65,7 +98,7 @@ textarea {
 .btn-edit:hover{
     text-decoration: none;
     color: white;
-    border: solid grey 1px;
+    border: solid black 1px;
     background-color:#1f5ebb;
 }
 
@@ -75,12 +108,75 @@ textarea {
     text-decoration: none;
     color: white;
     padding: .4vw;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .btn-cursos {
-    padding-top: 1vh;
+    padding: 3vh 2vw 0 0;
     font-size: 12px;
     text-align: center;
 }
 
+.atualizar {
+    margin: 5vh 10vw 2vw 10vw;
+    padding: 2vw;
+    background-color: #88888850;
+}
 
+.btn-secondary:hover {
+    background-color: #1f5ebb;
+}
 
+.fa-clipboard {
+    margin-top: 3.1vh;
+}
+
+.img-secundaria {
+    width: 330px;
+    float: right;
+    margin: -12vw 8vw 0 0;
+}
+
+.list-dados {
+    margin-top:10vh;
+}
+
+.btn-aprovar {
+    background-color: #0dc258;
+    border: solid grey 1px;
+    text-decoration: none;
+    color: white;
+    padding: .4vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-reprovar {
+    background-color: #9c2c2c;
+    border: solid grey 1px;
+    text-decoration: none;
+    color: white;
+    padding: .4vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-aprovar:hover {
+    text-decoration: none;
+    color: white;
+}
+.btn-reprovar:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.download-teste {
+    background-color: #999999;
+    border: solid grey 1px;
+    text-decoration: none;
+    color: white;
+    padding: .4vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.download-teste:hover{
+    text-decoration: none;
+    color: white;
+}

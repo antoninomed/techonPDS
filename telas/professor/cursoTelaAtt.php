@@ -1,6 +1,7 @@
 <?php
 include ("home.php");
 include ("../../dados/conexao.php");
+session_start();
 ?>
 
 <!DOCTYPE html>
@@ -18,16 +19,17 @@ include ("../../dados/conexao.php");
     if (isset($_GET["id_update"])){
         $id_upd2 = addslashes ($_GET["id_update"]);
         $_SESSION['atributoIdCurso'] = $id_upd2;
-        $comando = "select *from curso where id_curso='{$id_upd2}'";
-        $preparacao = Conexao::getConexao()->prepare($comando);
-        $preparacao->execute();
+        $comando2 = "select *from curso where id_curso='{$id_upd2}'";
+        $preparacao2 = Conexao::getConexao()->prepare($comando2);
+        $preparacao2->execute();
         
-        while($lista = $preparacao ->fetch(PDO::FETCH_ASSOC)):
+        while($lista = $preparacao2 ->fetch(PDO::FETCH_ASSOC)):
             ?>
         <?php $tituloAtt= $lista["titulo_curso"]; ?>
         <?php $descricaoAtt= $lista["descricao_curso"]; ?>
         <?php $nivelAtt= $lista["nivel_curso"]; ?>
-        <?php $linkAtt= $lista["link_curso"]; 
+        <?php $linkAtt= $lista["link_curso"]; ?>
+        <?php $testeAtt = $lista["link_teste"];
         endwhile;      
 }
 ?>
@@ -38,7 +40,7 @@ include ("../../dados/conexao.php");
     </div>
     
     <main class="container-central">
-        <form style="padding: 1vw;" action="cursoAtt.php" method="get">
+        <form style="padding: 1vw;" action="cursoAtt.php" method="get" class="atualizar">
             <section class="col-md-12 mb-3">
                 <section class="form-floating">
                     <input type="text" class="form-control" value = "<?php echo $tituloAtt ?>"id="nomeCurso" placeholder="Nome Curso" name= "nomeCurso">
@@ -64,6 +66,13 @@ include ("../../dados/conexao.php");
                 <section class="form-floating">
                     <input type="text" class="form-control" value = "<?php echo $linkAtt ?>"id="linkCurso" placeholder="Link do Curso" name= "linkCurso">
                     <label for="linkCurso">Link do Curso</label>
+                </section>
+            </section>
+
+            <section class="col-md-12 mb-3">
+                <section class="form-floating">
+                    <input type="text" class="form-control" value = "<?php echo $testeAtt ?>"id="linkTeste" placeholder="Teste cadastrado" name= "linkTeste">
+                    <label for="linkCurso">Teste do Curso</label>
                 </section>
             </section>
 
