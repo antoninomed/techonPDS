@@ -22,18 +22,25 @@
     height: 2vw;
 }
 .btn-cadastrar:hover {
-    box-shadow: 2px 2px 4px 4px #888888;
+    border: solid black 2px;
+
 }
 .btn-reset:hover {
-    box-shadow: 2px 2px 4px 4px #888888;
+    border: solid black 2px;
 }
 
 .cadastro {
-    border: solid grey 3px;
     margin: 5vh 10vw 2vw 10vw;
     padding: 2vw;
-    border-radius: 5px;
+    background-color: #88888850;
 }
+
+.atualizar {
+    margin: 5vh 10vw 2vw 10vw;
+    padding: 2vw;
+    background-color: #88888850;
+}
+
 .cadastro h2 {
     text-align: center;
 }
@@ -46,59 +53,56 @@ textarea {
 }
 
 .box-geral {
-    background-color: #1f5ebb;
-    color: white;
-    border-radius: 1vw;
-    margin: 0 1vw 1vh 0;
+    background-color: #dfdede;
+    color: black;
+    height: 7vh;
+    margin: 0 10vw 1vh 7vw;
     display: flex;
+    padding-left: 1vw;
 }
 
 .btn-esp {
     text-align: center;
-    height: 3vh;
-    margin-top: 3.5vh;
-    display: grid;
+    display:flex;
+    height: 5vh;
+    margin-top: 1.6vh;
+    margin-left: 10vw;
 }
 .modal-dialog {
     color: black;
 }
 
-.itens-prof {
-    padding: 2vw;
+.nome-prof {
     display: flex;
     width: 40vw;
+    margin-top: 1.7vh;
 }
 
 .btn-excluir {
     background-color: #e54040;
     color: white;
-    border: 0;
-    padding: .5vw;
-    border-radius: 7px;
     width: 10vw;
-    margin-top: 1vh;
-    text-decoration: none;
+    text-decoration: none;    
+    padding-top: .3vh;
+    margin-left: 1vw;
+    height: 3.6vh;
+    border: solid #999999 1px;
 }
 .btn-editar {
     background-color: white;
-    color: #1f5ebb;
-    border: 0;
-    padding: .5vw;
-    border-radius: 7px;
-    width: 10vw;
-    margin-top: 1vh;   
-    text-decoration: none; 
+    color: black;
+    width: 10vw; 
+    text-decoration: none;     
+    padding-top: .3vh;
+    height: 3.6vh;
+    border: solid #999999 1px;
 }
 
 .btn-editar:hover {
     text-decoration: none;
-    background-color: #1f5ebb;
-    color: white;
+    color: #1f5ebb;
     border: white 1px solid;
-    padding: .5vw;
-    border-radius: 7px;
-    width: 10vw;
-    margin-top: 1vh;    
+    cursor: pointer;
 }
 
 .btn-excluir:hover {
@@ -120,7 +124,6 @@ textarea {
     font-weight: 500;
     font-family: var(--bs-font-sans-serif);
 }
-
 
 .itens-prof {
     background-color: #1f5ebb;
@@ -184,4 +187,13 @@ textarea {
     text-align: center;
     margin-top: 8vh;
     font-family: 'Blinker', sans-serif;
+}
+
+.fa-address-card {
+    padding-top: .42vw;
+    margin: 0 1vw 0 1vw;
+}
+
+.btn-secondary:hover {
+    background-color: #1f5ebb;
 }

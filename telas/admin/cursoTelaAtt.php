@@ -9,6 +9,7 @@ include ("../../dados/conexao.php");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
     
     <title>Atualizar Curso</title>
@@ -30,16 +31,15 @@ include ("../../dados/conexao.php");
         <?php $linkAtt= $lista["link_curso"]; 
         endwhile;      
 }
-echo $tituloAtt;
 ?>
     <div class="info-pag" syle="font-family: 'Blinker', sans-serif;">
-        <h6 style="color:#1f5ebb">Cursos</h6>    
-        <h2 class="titulo-pag" >ATUALIZAR CURSO</h2>
+        <h6 style="color:#1f5ebb">Editar</h6>    
+        <h2 class="titulo-pag" >ATUALIZE OS DADOS DO CURSO</h2>
         <hr>
-    </div>
+    </div>    
     
     <main class="container-central">
-        <form style="padding: 1vw;" action="cursoAtt.php" method="get">
+        <form style="padding: 1vw;" action="cursoAtt.php" method="get" class="atualizar">
             <section class="col-md-12 mb-3">
                 <section class="form-floating">
                     <input type="text" class="form-control" value = "<?php echo $tituloAtt ?>"id="nomeCurso" placeholder="Nome Curso" name= "nomeCurso">

@@ -10,6 +10,7 @@ include ("../../dados/conexao.php");
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="admin.css">
     <title>Atualizar Professor</title>
 </head>
 <body>
@@ -31,10 +32,13 @@ include ("../../dados/conexao.php");
         endwhile;      
 }
 ?>
-    <h1 class="text-center">ATUALIZAR PROFESSOR</h1>
-
+    <div class="info-pag">
+        <h6 style="color:#1f5ebb; font-size:16px;">Editar</h6>    
+        <h2 class="titulo-pag" >ATUALIZE OS DADOS DO PROFESSOR</h2>
+        <hr>
+    </div>
     <main class="container-central">
-        <form action="professorAtt.php" method="get">
+        <form action="professorAtt.php" method="get" class="atualizar">
             <section class="col-md-12 mb-3">
                 <section class="form-floating">
                     <input type="text" class="form-control" value = "<?php echo $nomeAtt ?>"id="nomeProfessor" placeholder="Nome Professor" name= "nomeProfessor">
@@ -70,7 +74,7 @@ include ("../../dados/conexao.php");
                 </section>
             </section>
 
-            <button class="btn btn-secondary col-md-12" name="enviar">Atualizar Produto</button>
+            <button class="btn btn-secondary col-md-12" name="enviar">Atualizar Dados</button>
         </form>        
     </main>    
 </body>

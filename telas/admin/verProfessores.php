@@ -9,6 +9,7 @@ include ("../../dados/conexao.php");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="admin.css">
     <title>Ver Professores</title>
 </head>
@@ -32,19 +33,14 @@ include ("../../dados/conexao.php");
                 ?>
 
             <div class = "box-geral">
-                <div class="itens-prof">
-                    <strong style="margin-top: 4vh; width:15vw;"><?php echo $lista["nome_prof"]?></strong><br>
-                    <ul>
-                    <b>Número:</b> <?php echo $lista["numero_prof"];?><br>
-                    <b>CPF:</b> <?php echo $lista["cpf_prof"]; ?><br>   
-                    <b>Data de Nascimento:</b> <?php echo $lista["dtnascimento_prof"]; ?><br>         
-                    <b>E-mail:</b> <?php echo $lista["email_prof"]; ?><br>
-                    </ul>   
+                <div class="nome-prof">
+                    <i class="fa fa-address-card" aria-hidden="true"></i>
+                    <strong style="margin-top: .2vw;"><?php echo $lista["nome_prof"]?></strong><br>
                 </div>     
 
                 <div class="btn-esp">
-                    <a class="btn-excluir" data-toggle="modal" data-target="#confirm-delete" data-href="verProfessores.php?id_prof=<?php echo $lista["id_prof"];?>">Excluir</a>
-                    <a class="btn-editar" href="professorTelaAtt.php?id_update=<?php echo $lista["id_prof"];?>">Editar</a>
+                    <a class="btn-editar" href="professorTelaAtt.php?id_update=<?php echo $lista["id_prof"];?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar</a>
+                    <a class="btn-excluir" data-toggle="modal" data-target="#confirm-delete" data-href="verProfessores.php?id_prof=<?php echo $lista["id_prof"];?>"><i class="fa fa-trash" aria-hidden="true"></i> Excluir</a>
                 </div>
  
                     <div class="modal fade" id="confirm-delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
