@@ -44,13 +44,13 @@
         <main>
         <div class="info-pag" style="font-family: 'Blinker', sans-serif;">
             <h6 style="color:#1f5ebb">Aluno</h6>    
-            <h2 class="titulo-pag" >CURSOS CADASTRADOS</h2>
+            <h2 class="titulo-pag" >SEUS CURSOS CONCLUÍDOS</h2>
             <hr>
         </div>
         <container class="container-trilha">            
             <?php
             $email_logado = $_SESSION['email'];
-            $comando = "select * from aluno_curso where email_aluno='{$email_logado}' and status_curso != 'aprovado'";
+            $comando = "select * from aluno_curso where email_aluno='{$email_logado}' and status_curso = 'aprovado'";
             $preparacao = Conexao::getConexao()->prepare($comando);
             $preparacao->execute();   
             
@@ -60,16 +60,16 @@
                 $preparacao2->execute();    
                 while($lista2 = $preparacao2 ->fetch(PDO::FETCH_ASSOC)):
                 
-                ?>             
-            <a style="text-decoration: none" href="selectCurso.php?id_curso=<?php echo $lista["id_curso"]?>">
-            <div class="box-trilha">          
+                ?>         
+            
+            <div style = "border:solid #88888850 3px;" class="box-trilha">          
                         <img class="img-cursos" src="../../imagens/<?php echo $lista2['link_img']?>" alt="">
                         <h5><?php echo $lista['nome_curso']?></h5>
                         <div class="subtitulo-curso">
                             <p style="color: grey; font-size: 12px;">Nível <?php echo $lista2['nivel_curso']?></p>
-                            <p class="inscrever-se"> CONTINUAR </p>
+                            <p class="concluido"> CONCLUÍDO </p>
                         </div>
-                    </div></a>         <?php endwhile; ?>
+                    </div>         <?php endwhile; ?>
             
             <?php
             endwhile; 

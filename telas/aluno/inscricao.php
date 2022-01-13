@@ -1,6 +1,6 @@
 <?php
 class Inscricao {
-    private $email_aluno,$id_curso,$nome_aluno, $nome_curso;
+    private $email_aluno,$id_curso,$nome_aluno, $nome_curso, $status_curso;
 
     public function getEmailAluno (){
         return $this-> emailAluno;
@@ -27,6 +27,13 @@ class Inscricao {
     }
     public function setNomeCurso($nome_curso){
         $this->nomeCurso = $nome_curso;
+    }
+
+    public function getStatusCurso(){
+        return $this-> statusCurso;
+    }
+    public function setStatusCurso($status_curso){
+        $this->statusCurso = $status_curso;
     }
 
 
