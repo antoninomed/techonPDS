@@ -2,7 +2,6 @@
 session_start();
 require ('cabecalho.php'); 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,11 +9,9 @@ require ('cabecalho.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/login.css">
-    <title>Document</title>
+    <title>Login techON</title>
 </head>
 <body>
-
-
     <main id="main-login">
         <container class="container-login">  
             <img class = "img-central" src="../imagens/img-inicio.png" alt=""> 
