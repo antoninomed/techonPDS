@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #1f5ebb;
+    border-bottom: solid white 3px;
+    border-radius: 0;
+}
+.navbar .logo-cabecalho {
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 55px;
+    font-weight: 500;
+    color: white;
+}
+.logo-cabecalho:hover {
+    color: white;
+}
+.navbar li {
+    margin-left: 20px;
+}
+.navbar ul {
+    margin-left: auto;
+    margin-right: 100px;
+}
+.navbar a{
+    color: white;
+}
+
+.navbar .nav-item {
+    font-weight: 500;
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    font-weight: 700;
+    text-decoration: overline;  
+    color: white;
+}
+
