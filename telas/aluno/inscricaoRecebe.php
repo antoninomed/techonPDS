@@ -3,7 +3,6 @@ include ('inscricao.php');
 include ('verCursos.php');
 require_once('inscricaoDAO.php');
 
-
 $idCurso = $_SESSION['cursoSelect'];
 
 $comando = "select *from aluno where email_aluno='{$_SESSION['email']}'";

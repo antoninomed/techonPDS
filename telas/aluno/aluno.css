@@ -1,249 +1,226 @@
 .box-trilha {
-    width: 20vw;
-    text-align: center;
+	width: 20vw;
+	text-align: center;
 }
 .box-trilha .desc-trilha{
-    color: grey;
-    text-align: justify;
-    width: 20vw;
+	color: grey;
+	text-align: justify;
+	width: 20vw;
 }
 .img01-trilha {
-    width: 12vw;
-    margin: 0 auto;
+	width: 12vw;
+	margin: 0 auto;
 }
-
 .img02-trilha {
-    width: 12vw;
-    margin: 0 auto
+	width: 12vw;
+	margin: 0 auto
 }
-
 .img03-trilha {
-    width: 12vw;
-    margin: 0 auto
+	width: 12vw;
+	margin: 0 auto
 }
-
 .img04-trilha {
-    width: 15vw;
-    margin: 0 auto;
-    padding-bottom: 8vh;
+	width: 15vw;
+	margin: 0 auto;
+	padding-bottom: 8vh;
 }
 .container-trilha {
-    display:flex;
-    flex-wrap: wrap;
-    margin: 10vh 0 0 4vw;
+	display:flex;
+	flex-wrap: wrap;
+	margin: 10vh 0 0 4vw;
 }
-
 .container-trilha a {
-    text-decoration: none;
-    cursor:pointer; 
-    margin-right: 5vh; 
-    border: solid #88888850 3px;
-    margin-bottom: 2vh;
+	text-decoration: none;
+	cursor:pointer;
+	margin-right: 5vh;
+	border: solid #88888850 3px;
+	margin-bottom: 2vh;
 }
-
 .box-trilha h5 {
-    font-size: 16px;
-    color:#1f5ebb; 
-    font-weight:600; 
-    background-color:#88888850;
-    height: 4vh; 
-    padding-top:.5vw;
+	font-size: 16px;
+	color:#1f5ebb;
+	font-weight:600;
+	background-color:#88888850;
+	height: 4vh;
+	padding-top:.5vw;
 }
 .container-trilha a:hover .inscrever-se {
-    background-color: #1f5ebb;
+	background-color: #1f5ebb;
 }
-
 .inscrever-se {
-    color: white;
+	color: white;
 }
-
 .container-trilha a:hover {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .concluido {
-    color: white;
-    background-color: green;
+	color: white;
+	background-color: green;
 }
 .concluido {
-    background: green;
+	background: green;
 }
-
 .box-geral {
-    background-color: b;
-    color: white;
-    margin: 0 1vw 1vh 5vw;
-    width: 20vw;
+	background-color: b;
+	color: white;
+	margin: 0 1vw 1vh 5vw;
+	width: 20vw;
 }
-
 .box-geral:hover {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    text-decoration: none;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	text-decoration: none;
 }
-
-
 .itens-prof {
-    background-color: #1f5ebb;
-    padding: 2vw;
-    display: flex;
-    width: 80vw;
-    margin-left: 2vw; 
-    border-radius: 1vw;
+	background-color: #1f5ebb;
+	padding: 2vw;
+	display: flex;
+	width: 80vw;
+	margin-left: 2vw;
+	border-radius: 1vw;
 }
-
-
 .subtitulo-curso {
-    color: black;
+	color: black;
 }
-
 .titulo-curso {
-    text-align: center;
+	text-align: center;
 }
-
 .lineVertical {
-    border-left: 2px solid white;
-    margin-left: 2vw;
-    height: 10vh;
-  }
-
-.btn-inscrever {
-    background-color: #34bb04;
-    color: white;
-    border: 0;
-    padding: .5vw;
-    width: 12vw;
-    margin-top: 1vh;
-    text-decoration: none;
+	border-left: 2px solid white;
+	margin-left: 2vw;
+	height: 10vh;
 }
-
+.btn-inscrever {
+	background-color: #34bb04;
+	color: white;
+	border: 0;
+	padding: .5vw;
+	width: 12vw;
+	margin-top: 1vh;
+	text-decoration: none;
+}
 .btn-inscrever:hover{
-    text-decoration: none;
-    border: white 1px solid;
-    color: white;
-    cursor:pointer;
+	text-decoration: none;
+	border: white 1px solid;
+	color: white;
+	cursor:pointer;
 }
 .info-pag {
-    text-align: center;
-    margin-top: 8vh;
-    font-family: 'Blinker', sans-serif;
+	text-align: center;
+	margin-top: 8vh;
+	font-family: 'Blinker', sans-serif;
 }
-
 .box-aluno {
-    background-color: white;
-    margin: 1vw 1vw 1vh 4vw;
-    border: solid grey 2px;
-    width: 15vw;
-    padding: 2vw;
-    text-align: center;
+	background-color: white;
+	margin: 1vw 1vw 1vh 4vw;
+	border: solid grey 2px;
+	width: 15vw;
+	padding: 2vw;
+	text-align: center;
 }
-
 .box-aluno:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
 }
-
 .title-curso {
-    height: 20vh;
-    padding-bottom: 2vh;
+	height: 20vh;
+	padding-bottom: 2vh;
 }
-
 .object-video {
-    padding-top: 2vw;
-    display:flex;
+	padding-top: 2vw;
+	display:flex;
 }
 .btn-meuperfil {
-    text-decoration: none;
-    cursor: pointer;
-    background-color: #1f5ebb;
-    color: white;
-    padding: 1vw;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: #1f5ebb;
+	color: white;
+	padding: 1vw;
 }
-
 .btn-meuperfil:hover {
-    color: white;
-    border: solid black 1px;
-    
+	color: white;
+	border: solid black 1px;
 }
-
 .itens-aluno {
-    margin-left: 15vw;
-    color: white;
+	margin-left: 15vw;
+	color: white;
 }
-
 .box-dados {
-    background-color: #1f5ebb;
+	background-color: #1f5ebb;
 }
-
 .btn-ed {
-    background-color: white;
-    text-decoration: none;        
+	background-color: white;
+	text-decoration: none;
 }
-
 .img-cursos {
-    margin-top: 1vw;
-    width: 8vw;
-    height: 16vh;
+	margin-top: 1vw;
+	width: 8vw;
+	height: 16vh;
 }
-
 .imgsec {
-    width:7vw;
+	width:7vw;
 }
-
 .opcoes-nivel {
-    text-align: center;
+	text-align: center;
 }
-
 .opcoes-nivel a {
-    background-color: #88888850;
-    color: white;
-    padding: .7vw;
-    margin-right: 1vw;
+	background-color: #88888850;
+	color: white;
+	padding: .7vw;
+	margin-right: 1vw;
 }
 .opcoes-nivel a:hover {
-    background-color: #1f5ebb;
-    color: white;
-    text-decoration: none;
+	background-color: #1f5ebb;
+	color: white;
+	text-decoration: none;
 }
 .opcoes-nivel a:focus {
-    text-decoration: none;
-    color: black;
+	text-decoration: none;
+	color: black;
 }
-
 .img-perfil {
-    width: 5vw;
+	width: 5vw;
 }
-
 .itens-esq {
-    text-align: center;
-    width: 14vw;
-    padding: 2vw 0 0 0;
-    margin: 0 0 1vw 5vw;
-    background-color: white;
+	text-align: center;
+	width: 14vw;
+	padding: 2vw 0 0 0;
+	margin: 0 0 1vw 5vw;
+	background-color: white;
 }
 .itens-dir {
-    margin: 0 0 0 7vw;
-    width: 45vw;
+	margin: 0 0 0 7vw;
+	width: 45vw;
 }
 .box-perfil {
-    display:flex;
-    background-color: #88888850;
-    padding: 3vw 0 3vw 0;
-    margin: 0 12vw 0 12vw;
+	display:flex;
+	background-color: #88888850;
+	padding: 3vw 0 3vw 0;
+	margin: 0 12vw 0 12vw;
 }
-
 .alter-pass {
-    text-decoration: none;
-    color: green;
+	text-decoration: none;
+	color: green;
 }
-
+.btn-enviarTeste {
+	background-color:#1f5ebb;
+	color: white;
+	border: 0;
+	padding: .5vw;
+	width: 12vw;
+	margin-top: 1vh;
+	text-decoration: none;
+}
 .alter-pass:hover{
-    text-decoration: underline;
-    color: green;
+	text-decoration: underline;
+	color: green;
 }
-
 .download-teste {
-    text-decoration: none;
+	text-decoration: none;
 }
-
 .area-teste {
-    text-align: center;
+	text-align: center;
 }
-
+.form-cadastro {
+	width: 22vw;
+	text-align:center;
+	padding-left: 2vw;
+}
