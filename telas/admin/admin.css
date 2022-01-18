@@ -1,199 +1,177 @@
 .input-prof {
-    margin-bottom: 2vh;
-    width: 73vw;
-    border: solid 1px grey;
-    border-radius: 3px;
-    height: 2.5vw;
+	margin-bottom: 2vh;
+	width: 73vw;
+	border: solid 1px grey;
+	border-radius: 3px;
+	height: 2.5vw;
 }
 .btn-cadastrar {
-    width: 22.5vw;
-    border: none;
-    background-color: #1f5ebb;
-    border-radius: 4px;
-    color: white;
-    height: 2vw;
+	width: 22.5vw;
+	border: none;
+	background-color: #1f5ebb;
+	border-radius: 4px;
+	color: white;
+	height: 2vw;
 }
 .btn-reset {
-    width: 22.5vw;
-    border: none;
-    background-color: grey;
-    color: white;
-    border-radius: 4px;
-    height: 2vw;
+	width: 22.5vw;
+	border: none;
+	background-color: grey;
+	color: white;
+	border-radius: 4px;
+	height: 2vw;
 }
 .btn-cadastrar:hover {
-    border: solid black 2px;
-
+	border: solid black 2px;
 }
 .btn-reset:hover {
-    border: solid black 2px;
+	border: solid black 2px;
 }
-
 .cadastro {
-    margin: 5vh 10vw 2vw 10vw;
-    padding: 2vw;
-    background-color: #88888850;
+	margin: 5vh 10vw 2vw 10vw;
+	padding: 2vw;
+	background-color: #88888850;
 }
-
 .atualizar {
-    margin: 5vh 10vw 2vw 10vw;
-    padding: 2vw;
-    background-color: #88888850;
+	margin: 5vh 10vw 2vw 10vw;
+	padding: 2vw;
+	background-color: #88888850;
 }
-
 .cadastro h2 {
-    text-align: center;
+	text-align: center;
 }
 .botoes {
-    text-align: center;
+	text-align: center;
 }
-
 textarea {
-    min-height: 10vh;
+	min-height: 10vh;
 }
-
 .box-geral {
-    background-color: #dfdede;
-    color: black;
-    height: 7vh;
-    margin: 0 10vw 1vh 7vw;
-    display: flex;
-    padding-left: 1vw;
+	background-color: #dfdede;
+	color: black;
+	height: 7vh;
+	margin: 0 10vw 1vh 7vw;
+	display: flex;
+	padding-left: 1vw;
 }
-
 .btn-esp {
-    text-align: center;
-    display:flex;
-    height: 5vh;
-    margin-top: 1.6vh;
-    margin-left: 10vw;
+	text-align: center;
+	display:flex;
+	height: 5vh;
+	margin-top: 1.6vh;
+	margin-left: 10vw;
 }
 .modal-dialog {
-    color: black;
+	color: black;
 }
-
 .nome-prof {
-    display: flex;
-    width: 40vw;
-    margin-top: 1.7vh;
+	display: flex;
+	width: 40vw;
+	margin-top: 1.7vh;
 }
-
 .btn-excluir {
-    background-color: #e54040;
-    color: white;
-    width: 10vw;
-    text-decoration: none;    
-    padding-top: .3vh;
-    margin-left: 1vw;
-    height: 3.6vh;
-    border: solid #999999 1px;
+	background-color: #e54040;
+	color: white;
+	width: 10vw;
+	text-decoration: none;
+	padding-top: .3vh;
+	margin-left: 1vw;
+	height: 3.6vh;
+	border: solid #999999 1px;
 }
 .btn-editar {
-    background-color: white;
-    color: black;
-    width: 10vw; 
-    text-decoration: none;     
-    padding-top: .3vh;
-    height: 3.6vh;
-    border: solid #999999 1px;
+	background-color: white;
+	color: black;
+	width: 10vw;
+	text-decoration: none;
+	padding-top: .3vh;
+	height: 3.6vh;
+	border: solid #999999 1px;
 }
-
 .btn-editar:hover {
-    text-decoration: none;
-    color: #1f5ebb;
-    border: white 1px solid;
-    cursor: pointer;
+	text-decoration: none;
+	color: #1f5ebb;
+	border: white 1px solid;
+	cursor: pointer;
 }
-
 .btn-excluir:hover {
-    text-decoration: none;
-    border: white 1px solid;
-    color: white;
-    cursor:pointer;
+	text-decoration: none;
+	border: white 1px solid;
+	color: white;
+	cursor:pointer;
 }
-
 .nav-link:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 .nav-link {
-    font-family: var(--bs-font-sans-serif);
-    font-size:16px;
+	font-family: var(--bs-font-sans-serif);
+	font-size:16px;
 }
-
 .logo-cabecalho {
-    font-weight: 500;
-    font-family: var(--bs-font-sans-serif);
+	font-weight: 500;
+	font-family: var(--bs-font-sans-serif);
 }
-
 .itens-prof {
-    background-color: #1f5ebb;
-    padding: 2vw;
-    display: flex;
-    width: 80vw;
-    margin-left: 2vw; 
-    border-radius: 1vw;
+	background-color: #1f5ebb;
+	padding: 2vw;
+	display: flex;
+	width: 80vw;
+	margin-left: 2vw;
+	border-radius: 1vw;
 }
-
 .lineVertical {
-    border-left: 2px solid white;
-    margin-left: 2vw;
-    height: 10vh;
-  }
-
-.box-cursos {
-    background-color: #dfdede;
-    width: 22vw;
-    height: 22vh;
-    padding: 1vw 1vw 0 1vw;
-    margin: 1vw 0 0 1vw;
-    border-radius: 1px;
+	border-left: 2px solid white;
+	margin-left: 2vw;
+	height: 10vh;
 }
-
+.box-cursos {
+	background-color: #dfdede;
+	width: 22vw;
+	height: 22vh;
+	padding: 1vw 1vw 0 1vw;
+	margin: 1vw 0 0 1vw;
+	border-radius: 1px;
+}
 .btn-exc{
-    background-color: #dfdede;
-    border: solid grey 1px;
-    text-decoration: none;
-    color: black;
-    padding: .4vw;
-    cursor: pointer;
+	background-color: #dfdede;
+	border: solid grey 1px;
+	text-decoration: none;
+	color: black;
+	padding: .4vw;
+	cursor: pointer;
 }
 .btn-exc:hover{
-    text-decoration: none;
-    background-color: #e54040;
-    color: white;
+	text-decoration: none;
+	background-color: #e54040;
+	color: white;
 }
-
 .btn-edit:hover{
-    text-decoration: none;
-    color: white;
-    border: solid grey 1px;
-    background-color:#1f5ebb;
+	text-decoration: none;
+	color: white;
+	border: solid grey 1px;
+	background-color:#1f5ebb;
 }
-
 .btn-edit {
-    background-color: #999999;
-    border: solid grey 1px;
-    text-decoration: none;
-    color: white;
-    padding: .4vw;
+	background-color: #999999;
+	border: solid grey 1px;
+	text-decoration: none;
+	color: white;
+	padding: .4vw;
 }
 .btn-cursos {
-    padding-top: 1vh;
-    font-size: 12px;
-    text-align: center;
+	padding-top: 1vh;
+	font-size: 12px;
+	text-align: center;
 }
-
 .info-pag {
-    text-align: center;
-    margin-top: 8vh;
-    font-family: 'Blinker', sans-serif;
+	text-align: center;
+	margin-top: 8vh;
+	font-family: 'Blinker', sans-serif;
 }
-
 .fa-address-card {
-    padding-top: .42vw;
-    margin: 0 1vw 0 1vw;
+	padding-top: .42vw;
+	margin: 0 1vw 0 1vw;
 }
-
 .btn-secondary:hover {
-    background-color: #1f5ebb;
+	background-color: #1f5ebb;
 }
