@@ -2,7 +2,6 @@
 require ('home.php');
 include ("../../dados/conexao.php");
 ?>
-
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -31,7 +30,7 @@ include ("../../dados/conexao.php");
             while($lista = $preparacao ->fetch(PDO::FETCH_ASSOC)):
                 ?>
 
-            <div class = "box-geral">
+            <div style="padding-top: 1.5vw; margin: 0 13vw 1vh 11vw;"class = "box-geral">
                 <div class="nome-prof">
                     <i class="fa fa-address-card" aria-hidden="true"></i>
                     <strong style="margin-top: .2vw;"><?php echo $lista["nome_aluno"]?></strong><br>
